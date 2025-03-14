@@ -13,3 +13,4 @@ jobs:
           echo "SHA Value is ${{github.sha}}"
           echo "Actor Value is ${{github.actor}}"
           echo "Workflow details is ${{github.workflow}}"
+          echo "Repository Name is ${{github.repository}}"
